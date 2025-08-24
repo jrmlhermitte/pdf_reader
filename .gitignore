@@ -1,0 +1,38 @@
+# Dependencies
+/node_modules
+/pnpm-lock.yaml
+
+# Build artifacts
+/dist
+/build
+/frontend/dist/
+
+# IDE files
+.idea/
+.vscode/
+
+# Env files
+.env
+
+# Log files
+*.log
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Test files
+/coverage
+/reports
+
+
+# Python cache
+/backend/__pycache__/
+frontend/node_modules/*
+
+# Generated files
+#/storage/
+#/thumbnails/
+#**pdf
+#**png
+#database.json
